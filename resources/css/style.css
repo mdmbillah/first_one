@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Birthstone&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-color: darkgrey;
+}
+
+li,
+a,
+button {
+  font-family: "Birthstone", cursive;
+  font-weight: 800;
+  font-size: 30px;
+  color: #e96666;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  position: relative;
+  bottom: 280px;
+  left: 20%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 30px 10%;
+}
+
+.logo {
+  cursor: pointer;
+  position: relative;
+  bottom: 200px;
+  right: 100px;
+  font-family: "Birthstone", cursive;
+  font-weight: 400;
+  font-size: 70px;
+  color: #2b0202;
+}
+
+.navlist {
+  list-style: none;
+}
+
+.navlist li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navlist li a {
+  transition: all 0.3s ease 0s;
+}
+.navlist li a:hover {
+  color: #000000;
+}
+button {
+  padding: 0px 12px;
+  border-color: rgb(56, 0, 0);
+  border: none;
+  border-radius: 300px;
+  cursor: pointer;
+  transition: all 0.4s ease 0;
+}
+
+button:hover {
+  background-color: rgba(66, 0, 0, 0.8);
+}
+
+.body {
+  text-align: center;
+}
+h1 {
+  color: rgb(77, 6, 6);
+  font-size: 90px;
+}
+p {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  color: rgb(148, 83, 83);
+}
+.a {
+  position: relative;
+  top: 30px;
+  font-family: "Birthstone", cursive;
+  font-weight: 800;
+  font-size: 30px;
+  color: #e96666;
+  text-decoration: none;
+}
+.back {
+  background-image: url("../image/Background.jpg");
+  box-shadow: #0088a9;
+  width: 100%;
+  height: 100%;
+  padding: 200px;
+  background-repeat: no-repeat;
+}
+
+.des {
+  background-color: rgb(245, 234, 234);
+  height: 200px;
+  width: 800px;
+  position: relative;
+  left: 10px;
+  top: 100px;
+  padding: 0px 12px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: black 1px 1px 10px;
+  text-align: center;
+}
+.des p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5;
+}
+.des h2 {
+  color: #2b0202;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 1000;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.imgbox img {
+  height: 450px;
+  width: 600px;
+  position: relative;
+  left: 900px;
+  bottom: 150px;
+}
+
+.pro .img img {
+  position: relative;
+  right: 400px;
+  bottom: 200px;
+  height: 120px;
+}
+.pro .text {
+  position: relative;
+  left: 380px;
+  bottom: 300px;
+}
+.pro .text h3 {
+  font-size: 30px;
+  color: rgb(0, 36, 15);
+}
+.pro .text h4 {
+  font-size: 20px;
+  color: rgb(192, 64, 85);
+}
